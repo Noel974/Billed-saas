@@ -87,7 +87,9 @@ En suivre les etape d'installation [front-end](Billed-front/README.md).
 
 </center>
 
+## Utilisation 
 
+## *Test 
 pour faire les test unitaire 
  ```
 npx jest src/__tests__/fichier.js
@@ -108,6 +110,32 @@ mot de passe : admin
 utilisateur : employee@test.tld
 mot de passe : employee
 ```
+
+## * Github 
+
+## Contribution au Projet
+Créez une nouvelle branche pour votre contribution :
+
+1. Utilisez la commande git checkout -b nouvelle-branche.
+Remplacez "nouvelle-branche" par un nom significatif pour votre contribution. Par exemple, vous pouvez utiliser des noms comme "fonction-utilisateur" ou "correctif-bogue".
+
+2. Connaissances de base de Git :
+Avant de commencer à travailler sur votre contribution, assurez-vous de maîtriser les commandes Git de base :
+- 'git status': Vérifie l'état de vos fichiers.
+- 'git add .'': Ajoutez vos modifications à l'index.
+- ' git commit -m "votre_message"': Effectuez un commit avec un message descriptif.
+- 'git push origin nom-de-votre-branche': Poussez vos modifications vers le dépôt distant.
+
+3. Finalisation de votre travail :
+Une fois votre travail terminé, vous pouvez fusionner vos modifications avec la branche principale en utilisant la commande git merge.
+Exemple : Pour fusionner les modifications de la branche "fonction-utilisateur" dans la branche "main", utilisez la séquence de commandes suivante :
+
+```
+git checkout main
+git merge fonction-utilisateur
+git push origin main
+```
+Cela vous permettra de pousser vos modifications vers le dépôt distant de manière organisée et de contribuer efficacement au projet.
 
 <center>
 
@@ -136,3 +164,4 @@ Un plan de tests End-to-End est une documentation décrivant les scénarios de t
 * Résultats attendus : Les résultats attendus après l'exécution de chaque scénario de test. Cela peut inclure des captures d'écran, des valeurs attendues dans l'interface utilisateur, ou d'autres critères de validation.
 
 * Données de test : Les données spécifiques nécessaires à l'exécution des tests. Cela peut inclure des identifiants de connexion, des valeurs de formulaire, etc.
+

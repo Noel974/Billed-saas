@@ -10,8 +10,8 @@ Mission fiabiliser et améliorer et ajouter  des test pour résoudre des bugs.
 # Sommaire
 1. [back-end](#back-end)
 2. [Front-end](#front-end)
-3. [Outils](#outils)
 4. [Utilisation](#utilisation)
+5. [Rapport](#Rapport)
 
 <center>
 
@@ -81,13 +81,14 @@ bill-app/
 
 En suivre les etape d'installation [front-end](Billed-front/README.md).
 
-## Outils
-
-Jest pour tester et debuger le front
+<center>
 
 ## Utilisation
 
- pour faire les test unitaire 
+</center>
+
+
+pour faire les test unitaire 
  ```
 npx jest src/__tests__/fichier.js
 
@@ -107,3 +108,9 @@ mot de passe : admin
 utilisateur : employee@test.tld
 mot de passe : employee
 ```
+
+<center>
+
+## Rapport
+
+</center>

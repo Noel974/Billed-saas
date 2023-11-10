@@ -114,3 +114,25 @@ mot de passe : employee
 ## Rapport
 
 </center>
+
+### Rapport de tests Jest :
+Jest est un framework de test populaire pour les applications JavaScript. Un rapport de tests Jest fournit des informations détaillées sur l'exécution des tests unitaires dans votre application. Voici quelques éléments clés que vous pourriez trouver dans un rapport de tests Jest :
+
+* Nombre de tests réussis et échoués : Il vous donne une vue d'ensemble du nombre total de tests exécutés et de leur succès ou échec.
+
+* Détails sur les échecs : En cas d'échec de tests, Jest fournit des détails spécifiques sur les erreurs rencontrées, facilitant ainsi le processus de débogage.
+
+* Couverture de code : Jest génère également un rapport sur la couverture de code, indiquant quel pourcentage du code source a été couvert par les tests. Cela aide à identifier les parties du code qui ne sont pas suffisamment testées.
+
+* Durée d'exécution : Le rapport peut inclure des informations sur le temps nécessaire à l'exécution de l'ensemble des tests, ce qui peut être utile pour évaluer les performances.
+
+### Plan de tests End-to-End (E2E) :
+Un plan de tests End-to-End est une documentation décrivant les scénarios de test, les fonctionnalités à tester, les étapes à suivre et les résultats attendus pour les tests End-to-End. Voici ce que vous pourriez inclure dans un plan de tests E2E :
+
+* Scénarios de test : Une liste des cas d'utilisation ou des fonctionnalités à tester. Par exemple, pour une application Web, cela pourrait inclure des actions telles que la connexion, la navigation entre les pages, la saisie de données dans les formulaires, etc.
+
+* Étapes de test : Des instructions détaillées sur les étapes spécifiques à suivre pour exécuter chaque scénario de test. Cela peut inclure des informations sur la configuration préalable, les actions de l'utilisateur et les vérifications à effectuer.
+
+* Résultats attendus : Les résultats attendus après l'exécution de chaque scénario de test. Cela peut inclure des captures d'écran, des valeurs attendues dans l'interface utilisateur, ou d'autres critères de validation.
+
+* Données de test : Les données spécifiques nécessaires à l'exécution des tests. Cela peut inclure des identifiants de connexion, des valeurs de formulaire, etc.

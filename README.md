@@ -11,6 +11,8 @@ Mission fiabiliser et améliorer et ajouter  des test pour résoudre des bugs.
 1. [back-end](#back-end)
 2. [Front-end](#front-end)
 4. [Utilisation](#utilisation)
+   - [Test](#Test)
+   - [Github](#Github)
 5. [Rapport](#Rapport)
 
 <center>
@@ -87,9 +89,11 @@ En suivre les etape d'installation [front-end](Billed-front/README.md).
 
 </center>
 
-## Utilisation 
+## Utilisation Sommaire 
+   - [Test](#Test)
+   - [Github](#Github)
 
-## *Test 
+## Test 
 pour faire les test unitaire 
  ```
 npx jest src/__tests__/fichier.js
@@ -111,20 +115,22 @@ utilisateur : employee@test.tld
 mot de passe : employee
 ```
 
-## * Github 
+##  Github 
 
 ## Contribution au Projet
 Créez une nouvelle branche pour votre contribution :
 
-1. Utilisez la commande git checkout -b nouvelle-branche.
+1. Utilisez la commande `'git checkout -b nouvelle-branche'`.
 Remplacez "nouvelle-branche" par un nom significatif pour votre contribution. Par exemple, vous pouvez utiliser des noms comme "fonction-utilisateur" ou "correctif-bogue".
+
+Pour naviguer d'une branche à une autre dans Git, vous pouvez utiliser la commande git checkout. Voici comment vous pouvez le faire :`'git checkout nom-de-la-branche'`.
 
 2. Connaissances de base de Git :
 Avant de commencer à travailler sur votre contribution, assurez-vous de maîtriser les commandes Git de base :
-- 'git status': Vérifie l'état de vos fichiers.
-- 'git add .'': Ajoutez vos modifications à l'index.
-- ' git commit -m "votre_message"': Effectuez un commit avec un message descriptif.
-- 'git push origin nom-de-votre-branche': Poussez vos modifications vers le dépôt distant.
+- `'git status'`: Vérifie l'état de vos fichiers.
+- `'git add .'`: Ajoutez vos modifications à l'index.
+- `' git commit -m "votre_message"'`: Effectuez un commit avec un message descriptif.
+- `'git push origin nom-de-votre-branche'`: Poussez vos modifications vers le dépôt distant.
 
 3. Finalisation de votre travail :
 Une fois votre travail terminé, vous pouvez fusionner vos modifications avec la branche principale en utilisant la commande git merge.

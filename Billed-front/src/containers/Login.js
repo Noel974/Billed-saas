@@ -35,8 +35,6 @@ export default class Login {
     // Tente de se connecter, crée un utilisateur si la connexion échoue
     this.login(user)
       .catch(
-        //ligne modifier ignore l'erreur si l'utilisateur n'existe pas
-        /* istanbul ignore next */
         (err) => this.createUser(user)
       )
       .then(() => {
@@ -55,7 +53,7 @@ export default class Login {
     // Extrait les informations d'administrateur du formulaire
     const user = {
       type: "Admin",
-              //ligne modifier le code  
+      //ligne modifier le code  
       /* Les deux lignes suivantes résolvent le problème d'accès au compte admin */
       email: e.target.querySelector(`input[data-testid="admin-email-input"]`).value,
       password: e.target.querySelector(`input[data-testid="admin-password-input"]`).value,
@@ -68,7 +66,6 @@ export default class Login {
     // Tente de se connecter, crée un utilisateur administrateur si la connexion échoue
     this.login(user)
       .catch(
-        /* istanbul ignore next */
         (err) => this.createUser(user)
       )
       .then(() => {
@@ -81,8 +78,6 @@ export default class Login {
   }
 
   // Fonction de connexion (pas besoin de la couvrir par des tests)
-  //ligne modifier ignore ligne lors du calcul de la couverture
-   /* istanbul ignore next */
   login = (user) => {
     if (this.store) {
       // S'il y a un magasin, tente de se connecter en utilisant la méthode de connexion du magasin
@@ -102,8 +97,6 @@ export default class Login {
   }
 
   // Fonction de création d'un nouvel utilisateur (pas besoin de la couvrir par des tests)
-  //ligne modifier ignore ligne lors du calcul de la couverture
-     /* istanbul ignore next */
   createUser = (user) => {
     if (this.store) {
       // S'il y a un magasin, tente de créer un nouvel utilisateur en utilisant la méthode d'utilisateurs du magasin

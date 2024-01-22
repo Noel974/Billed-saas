@@ -53,6 +53,7 @@ export default class Login {
     // Extrait les informations d'administrateur du formulaire
     const user = {
       type: "Admin",
+      //test 2 corriger//
       //ligne modifier le code  
       /* Les deux lignes suivantes résolvent le problème d'accès au compte admin */
       email: e.target.querySelector(`input[data-testid="admin-email-input"]`).value,

@@ -33,7 +33,7 @@ describe("Given I am connected as an employee", () => {
       const windowIcon = screen.getByTestId('icon-window');
       expect(windowIcon).toBeTruthy();
     })
-
+//test 1 corriger//
     // Vérifie le tri par date
     test("Then bills should be ordered from earliest to latest", () => {
       document.body.innerHTML = BillsUI({ data: bills })

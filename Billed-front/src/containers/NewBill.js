@@ -22,7 +22,7 @@ export default class NewBill {
     const fileName = e.target.files[0].name
     const fileFormat = fileName.substring(fileName.lastIndexOf("."))
     const champFile = e.target;
-
+    //test 3 corriger image
     /* Si le format est valide on enlève l'avertissement et on valide */
     if(fileFormat === ".jpg" || fileFormat === ".jpeg" || fileFormat === ".png") {
     champFile.setCustomValidity("")
